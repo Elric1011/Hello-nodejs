@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Clone') {
             steps {
-                git: 'https://github.com/Elric1011/Hello-nodejs.git'
+                git 'https://github.com/Elric1011/Hello-nodejs.git'
             }
         }
     }
