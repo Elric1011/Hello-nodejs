@@ -6,10 +6,13 @@ pipeline {
         echo 'hello world'
         }
       }
+    }
     stages {
       stage("test") {
         steps {
         echo 'hello world 2'
+    }
+      }
     }
     stages {
       stage("deploy") {
@@ -17,8 +20,5 @@ pipeline {
         echo 'hello world 3'
         }
       }
-    }
-      }
-    }
     }
 }
